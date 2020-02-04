@@ -1,5 +1,7 @@
 # Oh-my-zsh
-stylized terminal with dracula theme, if you don't like the theme, disregard this part
+stylized terminal with dracula theme, if you don't like the theme, disregard this part.
+
+required: installed git
 
 # considerations
 Why use this terminal with the proposed themes?
@@ -36,3 +38,14 @@ when you restart your terminal, you can already see some changes.
 f you're on the Mac using the standard Terminal, you'll probably use: https://draculatheme.com/terminal/
 
 If you are on Linux with a distribution that uses Gnome, you will use: https://github.com/dracula/gnome-terminal
+
+# Theme Spaceship
+
+I like this theme a lot, it gives you support to see versions of programs like, docker, node, etc.
+
+let's clone then the reposotorio, with the command below
+
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+
+
+
