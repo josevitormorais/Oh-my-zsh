@@ -31,7 +31,7 @@ after the installation is done, all the settings will be made inside the ~ / .zs
 
 when you restart your terminal, you can already see some changes.
 
-# now let's install the dracula theme, which for me is the most sensational theme, used in almost everything.
+### now let's install the dracula theme, which for me is the most sensational theme, used in almost everything.
 
 f you're on the Mac using the standard Terminal, you'll probably use: https://draculatheme.com/terminal/
 
