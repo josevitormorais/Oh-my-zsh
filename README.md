@@ -43,9 +43,19 @@ If you are on Linux with a distribution that uses Gnome, you will use: https://g
 
 I like this theme a lot, it gives you support to see versions of programs like, docker, node, etc.
 
-let's clone then the reposotorio, with the command below
+let's clone then the reposotorio, with the command below:
 
 git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+
+em seguida rodamos o seguinte comando: 
+
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
+next step is to open our .zshrc file and change the variable ZSH_THEME - to ZSH_THEME = "spaceship"
+
+
+#### tip: if you have Vscode installed, run the command: code ~ / .zshrc, it will open the zshrc file inside vscode
+
 
 
 
